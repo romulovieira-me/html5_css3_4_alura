@@ -1,0 +1,33 @@
+Para um bloco onde o conteúdo tenha o mesmo significado, o mesmo sentido, usamos uma <section>.
+
+class = estilo 
+id = comportamento
+
+* Evitar colocar comportamento em variáveis, classes, id e etc. Um balanço é a melhor alternativa. 
+Nem tão específica, para poder repetir as classes, e nem tão genérica, para poder não precisar combinar classes.
+
+* espaçamento deve ser proporcional a fonte
+
+* Para sobrepor elementos, usamos o position: absolute
+
+* Tanto o float:left quanto o float: right servem para que o elemento se destaque na tela, 
+deixe de ocupar o espaço em que estava, para que os outros elementos possam se posicionar ao redor dele
+
+* Fonte preparada para a web tem um visual semelhante em todos os navegadores
+- Usar fontes externas é uma alternativa muito funcional para termos mais opções, que deixam o nosso site mais bonito e exclusivo, 
+e também padronizado em todos os navegadores.
+
+<iframe> --> cria quadro no site. Faz complementos externos à página
+
+Pseudoelementos (marcam elementos para terem melhor comportamento no site) --> :hover, :active, :visited, :required
+
+Como criar um elemento no HTML antes do meu item, através do CSS?
+R: Quando queremos criar um elemento na página, via CSS, antes do elemento do HTML, usamos a propriedade :before.
+
+Seletores avançados permitem selecionador os filhos diretos. Apresentam a mesma força
+* Seletor >, para acessar os filhos de determinado elemento. Por exemplo, para acessar todos os p dentro de main
+* Seletor +, para acessar o primeiro irmão de determinado elemento. Por exemplo, para acessar o primeiro p após um img
+* Seletor ~, para acessar todos os irmãos de determinado elemento. Por exemplo, para acessar todos os p após um img
+* Seletor not, para acessar os elementos, exceto algum. Por exemplo, para acessar todos os p dentro de main, exceto o p que tem id missao
+
+Opacidade --> Camada a mais em cima do elemento. Interfere na luz.

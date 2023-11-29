@@ -1,0 +1,68 @@
+body {
+   
+}
+
+/* Editando estilo da imagem*/
+#banner {
+    width: 100%;
+}
+
+/* Efeito do div principal*/
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+/* Efeito h1 */
+.titulo-principal {
+    padding-left: 20px;
+}
+
+
+/* Centralizando os parágrafos */
+p {
+    text-align: center;
+    /* 
+    Alterando background somente das tags
+    background: #CCCCCC;
+    */
+}
+
+/* Referenciando identificado*/
+#missao {
+    font-size: 20px"
+}
+
+/* Altera apenas os strong dentro de em */
+em strong {
+    /* Mudando a cor do elemento strong */
+    color: red;
+}
+
+/* Editando efeito da classe "itens" */
+.itens {
+    font-style: italic;
+}
+
+/* Efeito no div*/
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px; /* Espaçamento interno*/
+}
+
+/* Estilo na tag h2*/
+.titulo-centralizado {
+    text-align: center;
+}
+
+/* Estilo da lista */
+ul {
+    display: inline-block;
+    vertical-align: top; /* Alinhada no topo do div */
+    width: 20%; /* Ocupa 20% da página */
+    margin-right: 15%; /* Espaçamento interno*/
+}
+/* Estilo da segunda imagem */
+.imgbeneficios {
+    width : 50%;
+}
